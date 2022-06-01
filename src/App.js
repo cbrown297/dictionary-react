@@ -1,7 +1,7 @@
 import './App.css';
 import DictionarySearch from './DictionarySearch';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <h1>Dictionary React App</h1>
@@ -16,5 +16,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
