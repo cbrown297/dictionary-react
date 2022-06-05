@@ -5,8 +5,16 @@ export default function Meanings(props) {
   return ( 
     <div className="Meanings">
       <h3>{props.meaning.partOfSpeech}</h3>
-      <p>{props.meaning.definitions[0].definition}</p>
-      <p>{props.meaning.definitions[0].example}</p>
+      {props.meaning.definitions.map(function(definitions, index) {
+        return (
+          <div key={index}>
+            <p>{definitions.definition}
+            <br />
+            <em>{definitions.example}</em>
+            </p>
+          </div>
+        );
+      })}
     </div>
   );
 }
