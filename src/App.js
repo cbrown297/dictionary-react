@@ -4,9 +4,6 @@ import Dictionary from './Dictionary';
 export default function App() {
   return (
     <div className="App">
-      <header>
-        <h1>Dictionary</h1>
-      </header>
       <Dictionary defaultKeyword="planet" />
       <footer className="App-footer">This project was coded by{" "}
         <a href="https://fabulous-kheer-cd4c48.netlify.app/" target="_blank" rel="noreferrer noopener">Claudia Brown</a>
