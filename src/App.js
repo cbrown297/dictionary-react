@@ -5,7 +5,7 @@ export default function App() {
   return (
     <div className="App">
       <Dictionary defaultKeyword="planet" />
-      <footer className="App-footer">This project was coded by{" "}
+      <footer>This project was coded by{" "}
         <a href="https://fabulous-kheer-cd4c48.netlify.app/" target="_blank" rel="noreferrer noopener">Claudia Brown</a>
         {" "}and is{" "}
         <a href="https://github.com/cbrown297/dictionary-react" target="_blank" rel="noreferrer noopener">open-sourced on GitHub</a>

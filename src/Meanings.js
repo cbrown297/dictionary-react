@@ -25,6 +25,7 @@ export default function Meanings(props) {
       })}
       {props.meaning.synonyms.length > 0 && (
         <div>
+          <br />
           <strong>Synonyms:</strong>
           <Synonyms synonyms={props.meaning.synonyms} />
         </div>
