@@ -4,7 +4,7 @@ import Dictionary from './Dictionary';
 export default function App() {
   return (
     <div className="App">
-      <Dictionary defaultKeyword="planet" />
+      <Dictionary defaultKeyword="book" />
       <footer>This project was coded by{" "}
         <a href="https://fabulous-kheer-cd4c48.netlify.app/" target="_blank" rel="noreferrer noopener">Claudia Brown</a>
         {" "}and is{" "}

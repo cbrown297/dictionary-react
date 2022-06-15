@@ -12,7 +12,7 @@ export default function Meanings(props) {
             <div className="definition">{definitions.definition}</div>
             <div>
               {definitions.example && (
-                <div>{definitions.example}</div>
+                <div className="example">{definitions.example}</div>
               )}
               {definitions.synonyms.length > 0 && (
                 <div>
