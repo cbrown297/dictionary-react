@@ -1,5 +1,5 @@
+import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Dictionary from './Dictionary';
 
 export default function App() {
